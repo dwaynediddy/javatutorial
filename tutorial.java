@@ -1,19 +1,19 @@
 // import java.lang.Math;
+import java.util.*;
 
 public class tutorial {
-
     public static void main(String[] args) {
-        // char c = 'c';
-        // String s1 = "stringone";
-        // String s2 = "stringtwo";
-        // String s3 = s1 + s2 + "LIT";
-        // s3 = s3.toUpperCase();
+        Scanner reader = new Scanner(System.in);
+        System.out.println("input now: " );
+        int input = reader.nextInt();
 
-        // System.out.println( s3.replace('G', 'y') );
-        // System.out.println( s3 );
-
-        String s = "The program says: \"hello world\"";
-        System.out.println(s);
+        if(input > 10) {
+        System.out.println("more");
+        }
+        else {
+            System.out.println("less");
+        }
+       
         
     }
 }
