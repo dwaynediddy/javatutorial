@@ -4,16 +4,21 @@ import java.util.*;
 public class tutorial {
     public static void main(String[] args) {
         Scanner reader = new Scanner(System.in);
-        System.out.println("input now: " );
-        int input = reader.nextInt();
+        String input = reader.next();
+        String sOne = "abc";
+        String sTwo = "xyz";
 
-        if(input > 10) {
-        System.out.println("more");
+        boolean bool1 = input.contains(sOne);
+        boolean bool2 = input.contains(sTwo);
+
+        if((bool1 || bool2) && false)
+        {
+            System.out.println("TRUE");
+        } 
+        else
+        {
+            System.out.println("FALSE");
         }
-        else {
-            System.out.println("less");
-        }
-       
-        
+            
     }
 }
